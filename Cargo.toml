@@ -1,0 +1,15 @@
+[package]
+name = "aq"
+version = "0.1.0"
+authors = ["Alex Kehayias <alex.kehayias@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serial = "0.4"
+log = "0.4"
+env_logger = "0.6"
+tui = "0.10.0"
+termion = "1.5.5"
+lazy_static = "1.4.0"
+backtrace = "0.3.40"
